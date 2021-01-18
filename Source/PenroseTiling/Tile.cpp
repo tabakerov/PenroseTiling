@@ -89,9 +89,9 @@ inline void ATile::SetActive(bool IsActive)
 void ATile::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
 	UE_LOG(LogTemp, Warning, TEXT("OVERLAP with %s || %s || %s "), *OverlappedComponent->GetName(), *OtherActor->GetName(), *OtherComp->GetName());
-	if (bActive)
+	if (bActive && Pawn->bSnapping)
 	{
-		
+		TriggerSphere->SetGenerateOverlapEvents(false);
 		FVector OtherLocation = OtherComp->GetComponentLocation();
 		//this->AddActorWorldOffset(-(OverlappedComponent->GetComponentLocation() - OtherLocation));
 		this->SetActorLocation(this->GetActorLocation() - (OverlappedComponent->GetComponentLocation() - OtherLocation) );

@@ -5,11 +5,20 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79699a27-de35-4dd3-a19e-aa5e1acedce1" name="Default Changelist" comment="" />
+    <list default="true" id="79699a27-de35-4dd3-a19e-aa5e1acedce1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PenroseTiling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PenroseTiling/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PenroseTiling/MyPawn.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PenroseTiling/MyPawn.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PenroseTiling/MyPawn.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PenroseTiling/MyPawn.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PenroseTiling/Tile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/PenroseTiling/Tile.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../EGS Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/Components/SphereComponent.h" root0="FORCE_HIGHLIGHTING" />
@@ -21,13 +30,14 @@
       <option value="$PROJECT_DIR$/Source/PenroseTiling/MyPlayerController.h" />
       <option value="$PROJECT_DIR$/Source/PenroseTiling/MyPlayerController.cpp" />
       <option value="$PROJECT_DIR$/Source/PenroseTiling/PenroseTilingGameModeBase.h" />
-      <option value="$PROJECT_DIR$/Source/PenroseTiling/MyPawn.h" />
       <option value="$PROJECT_DIR$/Source/PenroseTiling/Tile.h" />
       <option value="$PROJECT_DIR$/Source/PenroseTiling/MyPawn.cpp" />
+      <option value="$PROJECT_DIR$/Source/PenroseTiling/MyPawn.h" />
       <option value="$PROJECT_DIR$/Source/PenroseTiling/Tile.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1n17K03CTVxDJt4smf4DSzp9iyk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -269,7 +279,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610545677622</updated>
       <workItem from="1610545701184" duration="18122000" />
-      <workItem from="1610965775886" duration="4743000" />
+      <workItem from="1610965775886" duration="6454000" />
     </task>
     <servers />
   </component>
@@ -278,6 +288,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

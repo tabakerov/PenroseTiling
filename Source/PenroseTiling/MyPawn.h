@@ -18,6 +18,7 @@ class PENROSETILING_API AMyPawn : public APawn
 
 private:
 	void Rotate(float Value);
+	
 
 	UPROPERTY()
 	AActor* SelectedTile;
@@ -41,7 +42,9 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-	
+	void Snap();
+	void Unsnap();
+	bool bSnapping;
 	void AddTile();
 
 	void HandleTileClicked(ATile* Tile);

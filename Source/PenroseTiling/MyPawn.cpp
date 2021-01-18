@@ -12,7 +12,7 @@ AMyPawn::AMyPawn()
 {
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
+	bSnapping = false;
 }
 
 // Called when the game starts or when spawned
@@ -36,6 +36,19 @@ void AMyPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAction("AddTile", EInputEvent::IE_Pressed, this, &AMyPawn::AddTile);
 	PlayerInputComponent->BindAxis("Rotate", this, &AMyPawn::Rotate);
+	PlayerInputComponent->BindAction("Snap", EInputEvent::IE_Pressed, this, &AMyPawn::Snap);
+	PlayerInputComponent->BindAction("Snap", EInputEvent::IE_Released, this, &AMyPawn::Unsnap);
+}
+
+void AMyPawn::Snap()
+{
+	bSnapping = true;
+}
+
+
+void AMyPawn::Unsnap()
+{
+	bSnapping = false;
 }
 
 void AMyPawn::Rotate(float Value)
